@@ -5,19 +5,19 @@ window:
   padding:
     x: 20
     y: 20
-  opacity: 1
+  opacity: 0.9
   decorations: none
 
 font:
   size: 10
   normal:
-    family: "JetBrainsMono"
+    family: "JetBrains Mono"
     style: Regular
   bold:
-    family: "JetBrainsMono"
+    family: "JetBrains Mono"
     style: Bold
   italic:
-    family: "JetBrainsMono"
+    family: "JetBrains Mono"
     style: "Italic"
   offset:
     x: 0

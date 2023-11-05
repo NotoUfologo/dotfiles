@@ -2,7 +2,7 @@
   border: 0;
   border-radius: 0;
   min-height: 0;
-  font-family: JetBrainsMono;
+  font-family: JetBrains Mono;
   font-size: 12px;
   
 }
@@ -130,14 +130,14 @@ window#waybar.hidden {
 }
 
 #clock {
-  font-family: JetBrainsMono;
+  font-family: JetBrains Mono;
   background-color: #dd00ff;
   color: rgba(00, 00, 00, 1);
   border-radius: 8px;
 }
 
 #temperature {
-  font-family: JetBrainsMono;
+  font-family: JetBrains Mono;
   background-color: rgba(00, 00, 00, 1);
   color: #ffffff;
   border-radius: 8px;
