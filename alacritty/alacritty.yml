@@ -5,19 +5,19 @@ window:
   padding:
     x: 20
     y: 20
-  opacity: 0.5
+  opacity: 1
   decorations: none
 
 font:
   size: 10
   normal:
-    family: "JetBrains Mono"
+    family: "JetBrainsMono"
     style: Regular
   bold:
-    family: "JetBrains Mono"
+    family: "JetBrainsMono"
     style: Bold
   italic:
-    family: "JetBrains Mono"
+    family: "JetBrainsMono"
     style: "Italic"
   offset:
     x: 0
@@ -27,7 +27,7 @@ font:
     y: 0
 colors:
     primary:
-        background: "#000000" # base #282a36
+        background: "#030303" # base #282a36
         foreground: "#ffffff" # text
         # Bright and dim foreground colors
         dim_foreground: "#CDD6F4" # text
