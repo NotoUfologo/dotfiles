@@ -26,7 +26,7 @@
         "on-click": "activate",
         "on-click-right": "fullscreen",
         "icon-theme": "WhiteSur",
-        "icon-size": 24,
+        "icon-size": 32,
         "tooltip-format": "{title}"
     },
     "hyprland/workspaces": {
@@ -56,7 +56,7 @@
         "max-length": 10
     },
     "tray": {
-        "spacing": 10
+        "spacing": 20
     },
     "clock": {
         "tooltip-format": "<tt>{calendar}</tt>",
@@ -81,7 +81,7 @@
     "custom/logo": {
         "format": "  ",
         "tooltip": false,
-        "on-click": "~/.config/rofi/launchers/misc/launcher.sh &"
+        "on-click": "exec alacritty"
     },
     "battery": {
         "format": "{capacity}% {icon}",
@@ -117,7 +117,7 @@
             "warning": 20,
             "critical": 10
         },
-        "tooltip": false
+        "tooltip": true
     },
 
 "temperature": {
@@ -130,7 +130,7 @@
 
 "backlight": {
         
-        "format": "{percent}% {icon}",
+        "format": "{icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
 
@@ -156,7 +156,7 @@
 
     "custom/power": {
         "format": "󰤆",
-        "tooltip": true,
+        "tooltip": false,
         "on-click": "exec rofi -show power-menu -modi power-menu:./.config/rofi/rofi-power-menu"
     }
    
