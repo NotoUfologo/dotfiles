@@ -9,15 +9,14 @@
     ],
     "modules-center": [
         
-        "tray"
+        "clock"
             ],
     "modules-right": [
-        "network",
         "pulseaudio",
         "battery",
         "backlight",
         "temperature",
-        "clock",
+        "tray",
         "custom/power"
         
     ],

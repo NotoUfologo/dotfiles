@@ -1,15 +1,15 @@
 window:
   dimensions:
-    columns: 100
+    columns: 300
     lines: 24
   padding:
-    x: 20
-    y: 20
-  opacity: 0.9
+    x: 25
+    y: 25
+  opacity: 0.95
   decorations: none
 
 font:
-  size: 10
+  size: 9
   normal:
     family: "JetBrains Mono"
     style: Regular
@@ -20,14 +20,14 @@ font:
     family: "JetBrains Mono"
     style: "Italic"
   offset:
-    x: 0
+    x: 1
     y: 0
   glyph_offset:
     x: 0
     y: 0
 colors:
     primary:
-        background: "#030303" # base #282a36
+        background: "#282a36" # base #282a36
         foreground: "#ffffff" # text
         # Bright and dim foreground colors
         dim_foreground: "#CDD6F4" # text
