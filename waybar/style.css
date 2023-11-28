@@ -1,5 +1,5 @@
 * {
-  border: 0;
+  border: 1;
   border-radius: 0;
   min-height: 0;
   font-family: JetBrains Mono Bold;
@@ -8,7 +8,7 @@
 }
 
 window#waybar {
-  background-color:rgba(00, 00, 00, 1);
+  background-color:rgba(00, 00, 00, 0);
   transition-property: background-color;
   transition-duration: 0.9s;
   }
@@ -26,15 +26,15 @@ window#waybar.hidden {
   min-width: 0; /* Fix weird spacing in materia (waybar #450) */
   box-shadow: inset 0 -3px transparent; /* Use box-shadow instead of border so the text isn't offset */
   padding: 6px 18px;
-  margin: 1px 1px;
+  margin: 4px 8px;
   border-radius: 8px;
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   color: #ffffff;
 }
 
 #workspaces button.active {
   color: #ae00ff;
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   border-radius: 8px;
 }
 
@@ -42,13 +42,13 @@ window#waybar.hidden {
  box-shadow: inherit;
  text-shadow: inherit;
  color: #aa00ff;
- background-color: rgba(00, 00, 00, 1);
+ background-color: rgba(00, 00, 00, 0.3);
  border-radius: 8px;
 }
 
 #workspaces button.urgent {
   color: rgb(255, 0, 0);
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   border-radius: 8px;
 }
 
@@ -62,33 +62,32 @@ window#waybar.hidden {
 #clock,
 #tray {
   border-radius: 8px;
-  margin: 0px ;
-  padding: 8px;
-  background-color: rgba(00, 00, 00, 1);
+  margin: 4px ;
+  padding: 4px;
+  background-color: rgba(00, 00, 00, 0.3);
   color: #ffffff;
 }
 
 
 #custom-logo {
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-left: 4px;
+  background-color: rgba(00, 00, 00, 0);
+  margin-left: 24px;
   font-size: 14px;
-  border-radius: 0px 0px 0px 8px;
+  border-radius: 8px;
   color: #ffffff;
 }
 
 #memory {
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   border-radius: 8px;
 }
 #battery {
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   border-radius: 8px;
 }
 @keyframes blink {
   to {
-    background-color: rgba(00, 00, 00, 1);
+    background-color: rgba(00, 00, 00, 0.3);
     color: #ffffff;
   }
 }
@@ -96,7 +95,7 @@ window#waybar.hidden {
 #battery.warning,
 #battery.critical,
 #battery.urgent {
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   color: #ffffff;
   animation-name: blink;
   animation-duration: 0.5s;
@@ -105,25 +104,25 @@ window#waybar.hidden {
   animation-direction: alternate;
 }
 #battery.charging {
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   color: #ffffff;
   border-radius: 8px;
 }
 
 #backlight {
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   color: #ffffff;
   border-radius: 8px;
 }
 
 #pulseaudio {
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   color: #ffffff;
   border-radius: 8px;
 }
 
 #network {
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   padding-right: 17px;
   color: #ffffff;
   border-radius: 8px;
@@ -131,23 +130,23 @@ window#waybar.hidden {
 
 #clock {
   font-family: JetBrains Mono;
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   color: #ffffff;
   border-radius: 8px;
 }
 
 #temperature {
   font-family: JetBrains Mono;
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   color: #ffffff;
   border-radius: 8px;
   
 }
 
 #custom-power {
-  background-color: rgba(00, 00, 00, 1);
+  background-color: rgba(00, 00, 00, 0.3);
   color: #ffffff;
-  margin-right: 12px;
+  margin-right: 24px;
   border-radius: 8px;
 }
 
@@ -155,7 +154,7 @@ window#waybar.hidden {
 tooltip {
 border-radius: 8px;
 padding: 4px;
-background-color: rgba(00, 00, 00, 0.8);
+background-color: rgba(00, 00, 00, 0.3);
 }
 
 

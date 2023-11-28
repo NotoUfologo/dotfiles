@@ -5,7 +5,7 @@ window:
   padding:
     x: 25
     y: 25
-  opacity: 0.95
+  opacity: 0.8
   decorations: none
 
 font:
@@ -30,13 +30,13 @@ colors:
         background: "#282a36" # base #282a36
         foreground: "#ffffff" # text
         # Bright and dim foreground colors
-        dim_foreground: "#CDD6F4" # text
-        bright_foreground: "#CDD6F4" # text
+        dim_foreground: "#ae00ff" # text
+        bright_foreground: "#ae00ff" # text
 
     # Cursor colors
     cursor:
         text: "#1E1E2E" # base
-        cursor: "#F5E0DC" # rosewater
+        cursor: "#ae00ff" # rosewater
     vi_mode_cursor:
         text: "#1E1E2E" # base
         cursor: "#B4BEFE" # lavender
@@ -65,7 +65,7 @@ colors:
     # Selection colors
     selection:
         text: "#1E1E2E" # base
-        background: "#F5E0DC" # rosewater
+        background: "#ae00ff" # rosewater
 
     # Normal colors
     normal:
@@ -74,7 +74,7 @@ colors:
         green: "#00ff15" # green
         yellow: "#F9E2AF" # yellow
         blue: "#89B4FA" # blue
-        magenta: "#dd00ff" # pink
+        magenta: "#ae00ff" # pink
         cyan: "#00e5ff" # teal
         white: "#BAC2DE" # subtext1
 
@@ -85,7 +85,7 @@ colors:
         green: "#00ff15" # green
         yellow: "#F9E2AF" # yellow
         blue: "#89B4FA" # blue
-        magenta: "#dd00ff" # pink
+        magenta: "#ae00ff" # pink
         cyan: "#00e5ff" # teal
         white: "#A6ADC8" # subtext0
 
