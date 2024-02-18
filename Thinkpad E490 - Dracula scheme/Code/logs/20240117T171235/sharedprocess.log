@@ -1,0 +1,8 @@
+2024-01-17 17:12:37.229 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-it /home/as/.vscode/extensions/ms-ceintl.vscode-language-pack-it-1.85.2024011009
+2024-01-17 17:12:37.283 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/as/.vscode/extensions/ms-ceintl.vscode-language-pack-it-1.85.2024011009.-5b4b9959.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/as/.vscode/extensions/ms-ceintl.vscode-language-pack-it-1.85.2024011009.-5b4b9959.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)

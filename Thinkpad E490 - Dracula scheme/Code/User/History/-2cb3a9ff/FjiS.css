@@ -1,0 +1,160 @@
+* {
+  border: 4;
+  border-radius: 0;
+  min-height: 0;
+  font-family: JetBrains Mono Nerd Bold;
+  font-size: 10px;
+  
+}
+
+window#waybar {
+  background-color:rgba(00, 00, 00, 5);
+  transition-property: background-color;
+  transition-duration: 0.9s;
+  }
+
+window#waybar.hidden {
+  opacity: 0.5;
+}
+
+#workspaces {
+  background-color: transparent;
+}
+
+#workspaces button {
+  all: initial; /* Remove GTK theme values (waybar #1351) */
+  min-width: 0; /* Fix weird spacing in materia (waybar #450) */
+  box-shadow: inset 0 -3px transparent; /* Use box-shadow instead of border so the text isn't offset */
+  padding: 6px 18px;
+  margin: 4px 8px;
+  border-radius: 8px;
+  background-color: rgba(00, 00, 00, 0.5);
+  color: #ffffff;
+}
+
+#workspaces button.active {
+  color: #ae00ff;
+  background-color: rgba(00, 00, 00, 0.5);
+  border-radius: 8px;
+}
+
+#workspaces button:hover {
+ box-shadow: inherit;
+ text-shadow: inherit;
+ color: #aa00ff;
+ background-color: rgba(00, 00, 00, 0.5);
+ border-radius: 8px;
+}
+
+#workspaces button.urgent {
+  color: rgb(255, 0, 0);
+  background-color: rgba(00, 00, 00, 0.5);
+  border-radius: 8px;
+}
+
+#memory,
+#custom-power,
+#battery,
+#backlight,
+#pulseaudio,
+#temperature,
+#network,
+#clock,
+#tray {
+  border-radius: 8px;
+  margin: 4px ;
+  padding: 4px;
+  background-color: rgba(00, 00, 00, 0.5);
+  color: #ffffff;
+}
+
+
+#custom-logo {
+  background-color: rgba(00, 00, 00, 0);
+  margin-left: 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+#memory {
+  background-color: rgba(00, 00, 00, 0.5);
+  border-radius: 8px;
+}
+#battery {
+  background-color: rgba(00, 00, 00, 0.5);
+  border-radius: 8px;
+}
+@keyframes blink {
+  to {
+    background-color: rgba(00, 00, 00, 0.5);
+    color: #ffffff;
+  }
+}
+
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  background-color: rgba(00, 00, 00, 0.5);
+  color: #ffffff;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#battery.charging {
+  background-color: rgba(00, 00, 00, 0.5);
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+#backlight {
+  background-color: rgba(00, 00, 00, 0.5);
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+#pulseaudio {
+  background-color: rgba(00, 00, 00, 0.5);
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+#network {
+  background-color: rgba(00, 00, 00, 0.5);
+  padding-right: 17px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+#clock {
+  font-family: JetBrains Mono;
+  background-color: rgba(00, 00, 00, 0.5);
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+#temperature {
+  font-family: JetBrains Mono;
+  background-color: rgba(00, 00, 00, 0.5);
+  color: #ffffff;
+  border-radius: 8px;
+  
+}
+
+#custom-power {
+  background-color: rgba(00, 00, 00, 0.5);
+  color: #ffffff;
+  margin-right: 24px;
+  border-radius: 8px;
+}
+
+
+tooltip {
+border-radius: 8px;
+padding: 4px;
+background-color: rgba(00, 00, 00, 0.5);
+}
+
+

@@ -1,0 +1,5 @@
+2024-01-17 17:12:37.792 [info] Livello log: Info
+2024-01-17 17:12:37.792 [info] Convalida del GitT trovato in: "git"
+2024-01-17 17:12:37.792 [info] Uso di Git "2.43.0" da "git"
+2024-01-17 17:12:37.792 [info] > git rev-parse --show-toplevel [9ms]
+2024-01-17 17:12:37.792 [info] fatal: not a git repository (or any of the parent directories): .git

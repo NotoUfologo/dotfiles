@@ -1,0 +1,105 @@
+window:
+  dimensions:
+    columns: 75
+    lines: 24
+  padding:
+    x: 25
+    y: 25
+  opacity: 0.8
+  decorations: none
+
+font:
+  size: 9
+  normal:
+    family: "JetBrains Mono"
+    style: Regular
+  bold:
+    family: "JetBrains Mono"
+    style: Bold
+  italic:
+    family: "JetBrains Mono"
+    style: "Italic"
+  offset:
+    x: 1
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+colors:
+    primary:
+        background: "#000000" # base #282a36
+        foreground: "#ffffff" # text
+        # Bright and dim foreground colors
+        dim_foreground: "#ae00ff" # text
+        bright_foreground: "#ae00ff" # text
+
+    # Cursor colors
+    cursor:
+        text: "#1E1E2E" # base
+        cursor: "#ae00ff" # rosewater
+    vi_mode_cursor:
+        text: "#1E1E2E" # base
+        cursor: "#B4BEFE" # lavender
+
+    # Search colors
+    search:
+        matches:
+            foreground: "#1E1E2E" # base
+            background: "#A6ADC8" # subtext0
+        focused_match:
+            foreground: "#1E1E2E" # base
+            background: "#00ff15" # green
+        footer_bar:
+            foreground: "#1E1E2E" # base
+            background: "#A6ADC8" # subtext0
+
+    # Keyboard regex hints
+    hints:
+        start:
+            foreground: "#1E1E2E" # base
+            background: "#F9E2AF" # yellow
+        end:
+            foreground: "#1E1E2E" # base
+            background: "#A6ADC8" # subtext0
+
+    # Selection colors
+    selection:
+        text: "#1E1E2E" # base
+        background: "#ae00ff" # rosewater
+
+    # Normal colors
+    normal:
+        black: "#45475A" # surface1
+        red: "#ff0000" # red
+        green: "#00ff15" # green
+        yellow: "#F9E2AF" # yellow
+        blue: "#89B4FA" # blue
+        magenta: "#ae00ff" # pink
+        cyan: "#00e5ff" # teal
+        white: "#BAC2DE" # subtext1
+
+    # Bright colors
+    bright:
+        black: "#585B70" # surface2
+        red: "#ff0000" # red
+        green: "#00ff15" # green
+        yellow: "#F9E2AF" # yellow
+        blue: "#89B4FA" # blue
+        magenta: "#ae00ff" # pink
+        cyan: "#00e5ff" # teal
+        white: "#A6ADC8" # subtext0
+
+    # Dim colors
+    dim:
+        black: "#45475A" # surface1
+        red: "#ff0000" # red
+        green: "#00ff15" # green
+        yellow: "#F9E2AF" # yellow
+        blue: "#89B4FA" # blue
+        magenta: "#dd00ff" # pink
+        cyan: "#00e5ff" # teal
+        white: "#BAC2DE" # subtext1
+
+    indexed_colors:
+        - { index: 16, color: "#FAB387" }
+        - { index: 17, color: "#F5E0DC" }

@@ -1,0 +1,6 @@
+2024-01-24 18:54:58.050 [info] Livello log: Info
+2024-01-24 18:54:58.050 [info] Convalida del GitT trovato in: "git"
+2024-01-24 18:54:58.050 [info] Uso di Git "2.43.0" da "git"
+2024-01-24 18:54:58.050 [info] > git rev-parse --show-toplevel [5ms]
+2024-01-24 18:54:58.050 [info] fatal: not a git repository (or any parent up to mount point /run/media/as)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

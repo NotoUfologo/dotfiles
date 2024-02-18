@@ -1,0 +1,17 @@
+2024-01-17 14:47:43.440 [info] Getting Manifest... ms-ceintl.vscode-language-pack-it
+2024-01-17 14:47:43.541 [info] Installing extension: ms-ceintl.vscode-language-pack-it
+2024-01-17 14:47:44.340 [warning] Extension signature verification failed with error 'UnknownError': ms-ceintl.vscode-language-pack-it
+2024-01-17 14:47:44.457 [info] Extracted extension to file:///home/as/.vscode/extensions/ms-ceintl.vscode-language-pack-it-1.85.2024011709: ms-ceintl.vscode-language-pack-it
+2024-01-17 14:47:44.462 [info] Renamed to /home/as/.vscode/extensions/ms-ceintl.vscode-language-pack-it-1.85.2024011709
+2024-01-17 14:47:44.463 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-it
+2024-01-17 14:47:44.473 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-it
+2024-01-17 14:47:44.501 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-it-1.85.2024011009
+2024-01-17 14:47:44.543 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-it
+2024-01-17 14:47:44.549 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/as/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/as/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-17 14:48:19.312 [error] [uncaught exception in sharedProcess]: Si è verificato un errore di sistema (ENOENT: no such file or directory, scandir '/home/as/.config/Code/clp/ac1309cc7014151b673396509c7513a2.it'): Error: ENOENT: no such file or directory, scandir '/home/as/.config/Code/clp/ac1309cc7014151b673396509c7513a2.it'

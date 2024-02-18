@@ -1,0 +1,107 @@
+[[colors.indexed_colors]]
+color = "#FAB387"
+index = 16
+
+[[colors.indexed_colors]]
+color = "#F5E0DC"
+index = 17
+
+[colors.bright]
+black = "#585B70"
+blue = "#89B4FA"
+cyan = "#00e5ff"
+green = "#00ff15"
+magenta = "#ae00ff"
+red = "#ff0000"
+white = "#A6ADC8"
+yellow = "#F9E2AF"
+
+[colors.cursor]
+cursor = "#ae00ff"
+text = "#1E1E2E"
+
+[colors.dim]
+black = "#45475A"
+blue = "#89B4FA"
+cyan = "#00e5ff"
+green = "#00ff15"
+magenta = "#dd00ff"
+red = "#ff0000"
+white = "#BAC2DE"
+yellow = "#F9E2AF"
+
+[colors.hints.end]
+background = "#A6ADC8"
+foreground = "#1E1E2E"
+
+[colors.hints.start]
+background = "#F9E2AF"
+foreground = "#1E1E2E"
+
+[colors.normal]
+black = "#45475A"
+blue = "#89B4FA"
+cyan = "#00e5ff"
+green = "#00ff15"
+magenta = "#ae00ff"
+red = "#ff0000"
+white = "#BAC2DE"
+yellow = "#F9E2AF"
+
+[colors.primary]
+background = "#000000"
+bright_foreground = "#ae00ff"
+dim_foreground = "#ae00ff"
+foreground = "#ffffff"
+
+[colors.search.focused_match]
+background = "#00ff15"
+foreground = "#1E1E2E"
+
+
+[colors.search.matches]
+background = "#A6ADC8"
+foreground = "#1E1E2E"
+
+[colors.selection]
+background = "#ae00ff"
+text = "#1E1E2E"
+
+[colors.vi_mode_cursor]
+cursor = "#B4BEFE"
+text = "#1E1E2E"
+
+[font]
+size = 9
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.offset]
+x = 1
+y = 0
+
+[window]
+decorations = "none"
+opacity = 0.8
+
+[window.dimensions]
+columns = 75
+lines = 24
+
+[window.padding]
+x = 25
+y = 25
