@@ -49,7 +49,7 @@ white = "#BAC2DE"
 yellow = "#F9E2AF"
 
 [colors.primary]
-background = "#000000"
+background = "#2a2c39"
 bright_foreground = "#ae00ff"
 dim_foreground = "#ae00ff"
 foreground = "#ffffff"
@@ -96,11 +96,11 @@ y = 0
 
 [window]
 decorations = "none"
-opacity = 1
+opacity = 0.9
 
 [window.dimensions]
-columns = 75
-lines = 24
+columns = 85
+lines = 30
 
 [window.padding]
 x = 25

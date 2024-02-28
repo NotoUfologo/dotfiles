@@ -1,11 +1,11 @@
 window:
   dimensions:
-    columns: 75
-    lines: 24
+    columns: 85
+    lines: 20
   padding:
     x: 25
     y: 25
-  opacity: 1
+  opacity: 0.5
   decorations: none
 
 font:
@@ -18,7 +18,7 @@ font:
     style: Bold
   italic:
     family: "JetBrains Mono"
-    style: "Italic"
+    style: Italic
   offset:
     x: 1
     y: 0
