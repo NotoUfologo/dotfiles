@@ -7,7 +7,7 @@ color = "#F5E0DC"
 index = 17
 
 [colors.bright]
-black = "#585B70"
+black = "#000000"
 blue = "#89B4FA"
 cyan = "#00e5ff"
 green = "#00ff15"
@@ -21,7 +21,7 @@ cursor = "#ae00ff"
 text = "#1E1E2E"
 
 [colors.dim]
-black = "#45475A"
+black = "#000000"
 blue = "#89B4FA"
 cyan = "#00e5ff"
 green = "#00ff15"
@@ -39,7 +39,7 @@ background = "#F9E2AF"
 foreground = "#1E1E2E"
 
 [colors.normal]
-black = "#45475A"
+black = "#000000"
 blue = "#89B4FA"
 cyan = "#00e5ff"
 green = "#00ff15"
@@ -49,7 +49,7 @@ white = "#BAC2DE"
 yellow = "#F9E2AF"
 
 [colors.primary]
-background = "#2a2c39"
+background = "#000000"
 bright_foreground = "#ae00ff"
 dim_foreground = "#ae00ff"
 foreground = "#ffffff"
@@ -96,7 +96,7 @@ y = 0
 
 [window]
 decorations = "none"
-opacity = 0.9
+opacity = 1
 
 [window.dimensions]
 columns = 85

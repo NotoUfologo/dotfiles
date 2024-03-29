@@ -5,7 +5,7 @@ window:
   padding:
     x: 25
     y: 25
-  opacity: 0.5
+  opacity: 1
   decorations: none
 
 font:
@@ -69,7 +69,7 @@ colors:
 
     # Normal colors
     normal:
-        black: "#45475A" # surface1
+        black: "#000000" # surface1
         red: "#ff0000" # red
         green: "#00ff15" # green
         yellow: "#F9E2AF" # yellow
